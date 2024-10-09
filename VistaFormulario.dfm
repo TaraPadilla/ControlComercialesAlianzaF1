@@ -2,8 +2,8 @@ object VistaF: TVistaF
   Left = 433
   Top = 191
   Caption = 'Control de Workana'
-  ClientHeight = 560
-  ClientWidth = 944
+  ClientHeight = 546
+  ClientWidth = 673
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,8 +17,8 @@ object VistaF: TVistaF
   object Panel2: TPanel
     Left = 0
     Top = 0
-    Width = 944
-    Height = 560
+    Width = 673
+    Height = 546
     Align = alClient
     AutoSize = True
     BevelOuter = bvNone
@@ -29,8 +29,8 @@ object VistaF: TVistaF
     object PageControl1: TPageControl
       Left = 0
       Top = 0
-      Width = 944
-      Height = 560
+      Width = 673
+      Height = 546
       ActivePage = tabAcciones
       Align = alClient
       MultiLine = True
@@ -44,10 +44,12 @@ object VistaF: TVistaF
         object Panel1: TPanel
           Left = 0
           Top = 0
-          Width = 936
-          Height = 224
+          Width = 665
+          Height = 210
           Align = alClient
           TabOrder = 0
+          ExplicitWidth = 936
+          ExplicitHeight = 224
           object LabelTime: TLabel
             Left = 368
             Top = 184
@@ -167,8 +169,8 @@ object VistaF: TVistaF
         end
         object panelDatos: TPanel
           Left = 0
-          Top = 224
-          Width = 936
+          Top = 210
+          Width = 665
           Height = 306
           Align = alBottom
           Font.Charset = DEFAULT_CHARSET
@@ -178,6 +180,8 @@ object VistaF: TVistaF
           Font.Style = []
           ParentFont = False
           TabOrder = 1
+          ExplicitTop = 224
+          ExplicitWidth = 936
           object btnStart: TButton
             Left = 88
             Top = 6
@@ -213,8 +217,8 @@ object VistaF: TVistaF
         object Panel3: TPanel
           Left = 0
           Top = 0
-          Width = 936
-          Height = 530
+          Width = 665
+          Height = 516
           Align = alClient
           TabOrder = 0
           ExplicitWidth = 926
@@ -223,7 +227,7 @@ object VistaF: TVistaF
             Left = 1
             Top = 1
             Width = 224
-            Height = 528
+            Height = 514
             Align = alLeft
             Caption = 'Panel4'
             TabOrder = 0
@@ -291,58 +295,72 @@ object VistaF: TVistaF
           object Panel5: TPanel
             Left = 225
             Top = 1
-            Width = 710
-            Height = 528
+            Width = 439
+            Height = 514
             Align = alClient
+            Anchors = [akRight, akBottom]
             Caption = 'Panel5'
             TabOrder = 1
-            ExplicitWidth = 700
-            ExplicitHeight = 510
+            ExplicitWidth = 799
+            ExplicitHeight = 528
+            DesignSize = (
+              439
+              514)
             object mmProyecto: TMemo
-              Left = 20
+              Left = 24
               Top = 24
-              Width = 713
-              Height = 153
+              Width = 349
+              Height = 139
+              Anchors = [akLeft, akTop, akRight, akBottom]
               Lines.Strings = (
                 '')
               TabOrder = 0
+              ExplicitWidth = 713
+              ExplicitHeight = 153
             end
             object mmDinamico: TMemo
               Left = 20
               Top = 200
-              Width = 713
-              Height = 233
+              Width = 349
+              Height = 219
+              Anchors = [akLeft, akRight]
               Lines.Strings = (
-                
-                  'Revisa la viabilidad del siguiente proyecto, que presenta una em' +
-                  'presa para que desarrollemos. Necesito saber '
-                
-                  'si es viable t'#233'cnica y econ'#243'micamente, considerando las herramie' +
-                  'ntas y recursos que manejamos, y si es '
-                
-                  'factible implementarlo sin complicaciones innecesarias: Extrae p' +
-                  'rimero las generalidades u objetivos tecnicos '
+                'Revisa la viabilidad del siguiente proyecto, que presenta una '
+                'empresa para que desarrollemos. Necesito saber '
+                'si es viable t'#233'cnica y econ'#243'micamente, considerando las '
+                'herramientas y recursos que manejamos, y si es '
+                'factible implementarlo sin complicaciones innecesarias: Extrae '
+                'primero las generalidades u objetivos tecnicos '
                 'y de modelo de negocio: ')
               TabOrder = 1
               OnClick = mmDinamicoClick
+              ExplicitWidth = 713
             end
-            object btViable: TButton
-              Left = 224
-              Top = 456
-              Width = 97
-              Height = 25
-              Caption = 'Iniciar Analisis'
+            object Panel6: TPanel
+              Left = 1
+              Top = 455
+              Width = 437
+              Height = 58
+              Align = alBottom
               TabOrder = 2
-              OnClick = btViableClick
-            end
-            object btFinAnalisis: TButton
-              Left = 352
-              Top = 456
-              Width = 113
-              Height = 25
-              Caption = 'Fin Analisis'
-              TabOrder = 3
-              OnClick = btFinAnalisisClick
+              object btFinAnalisis: TButton
+                Left = 220
+                Top = 16
+                Width = 113
+                Height = 25
+                Caption = 'Fin Analisis'
+                TabOrder = 0
+                OnClick = btFinAnalisisClick
+              end
+              object btViable: TButton
+                Left = 96
+                Top = 16
+                Width = 97
+                Height = 25
+                Caption = 'Iniciar Analisis'
+                TabOrder = 1
+                OnClick = btViableClick
+              end
             end
           end
         end

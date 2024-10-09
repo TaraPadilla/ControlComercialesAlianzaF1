@@ -33,6 +33,7 @@ type
     Panel5: TPanel;
     btViable: TButton;
     btFinAnalisis: TButton;
+    Panel6: TPanel;
     procedure btnStartClick(Sender: TObject);
     procedure btnStopClick(Sender: TObject);
     procedure btnResetClick(Sender: TObject);
