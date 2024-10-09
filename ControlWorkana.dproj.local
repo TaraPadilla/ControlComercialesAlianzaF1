@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/10/08 12:10:13.000.232,=C:\Users\tcpad\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/08 12:11:19.000.563,=C:\Users\tcpad\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/10/08 12:11:59.000.749,D:\F1\Delphi\ControlWorkana\ControlWorkanaModel.pas=C:\Users\tcpad\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/10/08 12:15:55.000.338,D:\F1\Delphi\ControlWorkana\VistaFormulario.dfm=C:\Users\tcpad\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/10/08 12:15:55.000.338,D:\F1\Delphi\ControlWorkana\VistaFormulario.pas=C:\Users\tcpad\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/08 12:16:04.000.591,=C:\Users\tcpad\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/08 12:16:24.000.388,D:\F1\Delphi\ControlWorkana\ControlWorkanaController.pas=C:\Users\tcpad\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/08 12:16:35.000.368,D:\F1\Delphi\ControlWorkana\ControlWorkana.dproj=C:\Users\tcpad\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/10/08 21:54:24.000.636,=D:\F1\Delphi\ControlWorkana\Unit1.pas</Transaction>
+    <Transaction>2024/10/08 21:54:56.000.876,D:\F1\Delphi\ControlWorkana\Unit1.dfm=D:\F1\Delphi\ControlWorkana\ufrmDatosProyecto.dfm</Transaction>
+    <Transaction>2024/10/08 21:54:56.000.875,D:\F1\Delphi\ControlWorkana\Unit1.pas=D:\F1\Delphi\ControlWorkana\ufrmDatosProyecto.pas</Transaction>
+  </Transactions>
+</BorlandProject>
